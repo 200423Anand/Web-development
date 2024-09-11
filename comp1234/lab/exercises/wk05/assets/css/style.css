@@ -1,0 +1,39 @@
+header h1, header h2 {
+    color: rgb(0,0,255);
+    font-style: italic;
+}
+
+
+ul li, ol li {
+    font-size: 1.5em;
+}
+
+ul li:first-child {
+    background-color: lightblue;
+}
+
+ul li:nth-child(2) {
+    background-color: yellow;
+}
+
+ul li:last-child {
+    background-color: pink;
+}
+
+ol li:first-child {
+    background-color: lightblue;
+}
+
+ol li:nth-child(2) {
+    background-color: yellow;
+}
+
+
+ol li:last-child {
+    background-color: pink;
+}
+
+
+footer {
+    border: 2px solid black;
+}

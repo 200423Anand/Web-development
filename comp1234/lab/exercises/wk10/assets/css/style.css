@@ -1,0 +1,49 @@
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+legend{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.name{
+    margin: 1em;
+}
+label{
+    font-size: x-large;
+}
+span{
+    color: red;
+}
+[type="email"]{
+    width: 99%;
+    float: right;
+    padding-bottom: 20px;
+}
+.button{
+    clear: both;
+    font-size: large;
+    background-color: purple;
+    color: white;
+    border: none;
+    margin-top: 1.5em;
+}
+
+[type="text"]{
+    width: 48.65%;
+    /*float: right;*/
+    padding-bottom: 20px;
+    padding-bottom: 13px;
+    padding-top: 8px;
+    font-size: larger;
+}
+.box{
+    width: 100%;
+    float: right;
+    padding-bottom: 13px;
+    padding-top: 8px;
+    font-size: larger;
+}

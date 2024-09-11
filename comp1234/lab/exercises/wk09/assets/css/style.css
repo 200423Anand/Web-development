@@ -1,0 +1,37 @@
+header, main, article, aside, footer {
+    border: red solid 3px;
+    background-color: #6699FF;
+}
+
+main{
+    width: 62%;
+    height: 200px;
+    margin-bottom: .7em;
+}
+article, aside{
+    width: 18%;
+}
+aside{
+    float: right;
+    height: 200px;
+
+}
+footer{
+    clear: both;
+    margin-top: 3em;
+
+    height: 200px;
+}
+article{
+    margin-left: .5em;
+    height: 200px;
+
+}
+main, article{
+    float: left;
+}
+header{
+    margin: 0 0 .7em 0;
+    height: 200px;
+
+}

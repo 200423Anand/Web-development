@@ -1,0 +1,8 @@
+ul>li{
+    padding: 0.5em;
+    border: 2px solid red;
+}
+ol{
+    border: 5px solid red;
+    border-radius: 20px;
+}

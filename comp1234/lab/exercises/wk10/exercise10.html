@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic web page of comp 1234.">
+    <meta name="keywords" content="fieldset, labels, forms ">
+    <meta name="author" content="Anand Sharma">
+
+    <title>This is a basic web page of HTML and CSS for wk10.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>Form</h1>
+<form method="get" action="http://comp1234.gblearn.com/winter2024/lecture/wk10/WhereToSendThisInformation.php">
+    <fieldset>
+        <legend>Comment Form</legend>
+
+        <figure class="name">
+            <label for="Name">Your Name<span>*</span></label>
+            <br>
+            <input type="text" name="First" placeholder="First" id="first" required>
+            <input type="text" name="Last" placeholder="Last" id="Name" required>
+        </figure>
+
+
+        <figure class="name">
+            <label for="Email">Email<span>*</span></label>
+            <br>
+            <input type="email" name="email"  id="Email" required>
+        </figure>
+
+
+        <figure class="name">
+            <label for="comments">Subject of comments:</label>
+            <br>
+            <select class="box" name="comments" id="comments">
+                <option value="problem">Problem</option>
+                <option value="comment">Comment</option>
+                <option value="general question">General question</option>
+            </select>
+        </figure>
+
+
+        <figure class="name">
+            <label for="Comment">Comment:<span>*</span></label>
+            <br>
+            <textarea class="box" name="comment" id="Comment" rows="10" required></textarea>
+        </figure>
+
+<figure>
+        <input class="button" type="submit">
+        </figure>
+
+
+
+    </fieldset>
+</form>
+
+
+
+
+
+
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
